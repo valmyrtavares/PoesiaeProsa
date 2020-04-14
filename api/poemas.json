@@ -1,0 +1,48 @@
+{
+  "contato": {
+    "id": "contato",
+    "titulo": "Contato",
+    "descricao": "Entre em contato que responderemos em até 24h.",
+    "contato": {
+      "telefone": "21 9999-9999",
+      "email": "contato@gmail.com",
+      "endereco": "Rua Ali Perto, Botafogo - RJ"
+    }
+  },
+  "poesia": {
+    "id": "poesia",
+    "titulo": "O que é poesia",
+    "descricao":"Poesia é um gênero literário caracterizado pela composição em versos estruturados de forma harmoniosa. É uma manifestação de beleza e estética retratada pelo poeta em forma de palavras.",
+    "imagem":"https://img.over-blog-kiwi.com/2/52/54/83/20171008/ob_4af8ba_27b06ca22711a07e8e29b3734060565c.jpg"
+  },
+  "autores": [
+    {
+    "id": "manoelBandeira",
+    "titulo": "Manoel Bandeira",
+    "biografia": "Manuel Carneiro de Sousa Bandeira Filho, conhecido como Manuel Bandeira, nasceu na cidade do Recife, Pernambuco, no dia 19 de abril de 1886. iniciou seus estudos no Recife. Com 16 anos mudou-se com a família para o Rio de Janeiro, concluindo o curso secundário no Colégio Pedro II. Em 1903 ingressou no curso de Arquitetura da Escola Politécnica de São Paulo, mas interrompeu os estudos para tratar de uma tuberculose.",
+    "imagem":"https://www.citador.pt/images/autorid01922.jpg",
+    "obra":[
+      "consoada", "irene", "pneumotorax"
+    ]
+  },
+  {
+    "id": "augustoAnjos",
+    "titulo": "Augusto dos Anjos",
+    "biografia": " foi um poeta brasileiro pré-modernista que viveu de 1884 a 1914. Sua obra “Eu e Outras Poesias”, foi publicada dois anos antes de sua morte. Suas poesias trazem marcantes sentimentos de pessimismo e desânimo, além de inclinação para a morte.",
+    "imagem":"https://s1.static.brasilescola.uol.com.br/img/2020/01/Euclides_da_Cunha.jpg",
+    "obra":[
+      "Psicologia de um vencido", "Versos intimos", "A lagrima"
+    ]
+  },
+  {
+    "id": "carlosDrumond",
+    "titulo": "Carlos Drumond",
+    "biografia": "Quando se diz que Drummond foi o primeiro grande poeta a se afirmar depois das estreias modernistas, não se está querendo dizer que Drummond seja um modernista. De fato, herda a liberdade linguística, o verso livre, o metro livre, as temáticas cotidianas.Sobre a poesia política, algo incipiente até então, deve-se notar o contexto em que Drummond escreve. A civilização que se forma a partir da Guerra Fria está fortemente amarrada ao neocapitalismo, à tecnocracia, às ditaduras de toda sorte, e ressoou dura e secamente no eu artístico do último Drummond, que volta, com frequência, à aridez desenganada dos primeiros versos:",
+    "imagem":"https://static.todamateria.com.br/upload/ca/rl/carlosdrummonddeandrade-0.jpg",
+    "obra":[
+      "jose", "Brejo das Almas", " A última pedra do caminho"
+    ]
+  }
+]
+  
+}
