@@ -28,6 +28,9 @@ export default {
   a{
       text-decoration: none;
   }
+  img{
+  max-width:500px;
+}
         
      
    

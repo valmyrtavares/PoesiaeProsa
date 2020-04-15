@@ -4,14 +4,14 @@
     <div v-for="(item, index) in api" :key="index">
       <div class="container" v-if="item.id===autor">
         <div>
-          <p>{{item.titulo}}</p>
+          <h2>{{item.titulo}}</h2>
           <p>{{item.biografia}}</p>
         </div>
         <div>
           <img :src="item.imagem" :alt="item.titulo" />
           <ul>
             <li v-for="(elemento, index) in item.obra" :key="index">
-             <router-link :to="{name:'Obra', params:{obra:elemento}}"> <p>{{elemento}}</p> </router-link>
+             <router-link :to="{name:'Obra', params:{obra:elemento.id}}"> <p>{{elemento.titulo}}</p> </router-link>
             </li>
           </ul>
         </div>
@@ -37,6 +37,10 @@ export default {
 </script>
 
 <style scoped>
+img{
+  max-width:250px;
+}
+
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;

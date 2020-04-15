@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Home</h1>
+   
     <p>{{res}}</p>
 </div>
 </template>
@@ -16,7 +16,17 @@ props:["res"],
     }
 }
 </script>
+  
+<style scoped> 
+ 
+ div{
+   height:100vh;
+   width:100%;
+  background:url("https://www.superprof.com.br/blog/wp-content/uploads/2016/11/arte-e-os-numeros.jpg");
+  background-repeat:no-repeat;
+   background-position: cover center center;
+    background-size: 100% 100vh;
 
-<style>
+}
 
 </style>

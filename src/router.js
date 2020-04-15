@@ -5,7 +5,7 @@ import Musica from '@/views/Musica.vue'
 import Poesia from '@/views/Poesia.vue'
 import Home from '@/views/Home.vue'
 import Contato from '@/views/Contato.vue'
-import Autor from '@/views/Autores.vue'
+import Autores from '@/views/Autores.vue'
 import Obra from '@/components/Obra.vue'
 
 
@@ -30,7 +30,7 @@ export default new Router({
         {
             path:"/autores/:autor/",
             name:"Poesia",
-            component:Autor,
+            component:Autores,
             props:true,
             children:[
                 {
